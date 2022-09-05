@@ -1,0 +1,21 @@
+.wrappCont {
+  position: relative;
+
+  min-width: 96px;
+  height: 60px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.wrappCont:not(:first-child) {
+  margin-left: 3em;
+}
+
+.wrappCont p {
+  font-family: var(--p-font-family);
+  font-size: 12px;
+  font-weight: 400;
+
+  color: var(--p-color);
+}

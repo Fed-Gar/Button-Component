@@ -1,0 +1,117 @@
+.defaultBtn {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+
+  margin: auto;
+  padding: 0.5rem 1rem;
+  
+  font-family: var(--btn-font-family);
+  font-size: 14px;
+  font-weight: 1000;
+  color: var(--btn-color);
+ 
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  background-color: var(--btn-gb-default);
+  outline: none;
+}
+
+.defaultBtn:hover, .defaultBtn:focus {
+  border: none;
+  background-color: rgb(174, 174, 174);
+  cursor: pointer;
+}
+
+.outline {
+  background-color: var(--body-bg-color);
+  border: 1px solid var(--outline-color);
+  color: var(--outline-color);
+}
+
+.outline:hover, .outline:focus {
+  background-color: var(--btn-bg-hv);
+  border: 1px solid var(--outline-color);
+}
+
+.text {
+  background-color: transparent;
+  color: var(--outline-color);
+
+  box-shadow: none;
+}
+
+.text:hover, .text:focus {
+  background-color: var(--btn-bg-hv);
+}
+
+.disabledShadow {
+  box-shadow: none;
+}
+
+.defaultBtn[disabled] {
+  box-shadow: none;
+  color: var(--btn-disabled-color);
+  background-color: var(--btn-gb-default);
+}
+
+.text[disabled] {
+  background-color: transparent;
+  color: var(--btn-disabled-color);
+}
+
+.defaultBtn[disabled]:hover, .defaultBtn[disabled]:focus {
+  background-color: var(--btn-gb-default);
+  cursor: default;
+}
+
+.text[disabled]:hover, .text[disabled]:focus {
+  background-color: transparent;
+  cursor: default;
+}
+
+.sm {
+  padding: 0.3rem 0.7rem;
+}
+
+.md {
+  padding: 0.5rem 1rem;
+}
+
+.lg {
+  padding: 0.7rem 1.2rem;
+}
+
+.primary, .secondary, .danger {
+  color: white;
+}
+
+.primary {
+  background-color: var(--btn-bg-primary);
+}
+
+.primary:hover, .primary:focus {
+  background-color: var(--btn-bg-primary-hv);
+}
+
+.secondary {
+  background-color: var(--btn-bg-secondary);
+}
+
+.secondary:hover, .secondary:focus {
+  background-color: var(--btn-bg-secondary-hv);
+}
+
+.danger {
+  background-color: var(--danger);
+}
+
+.danger:hover, .danger:focus {
+  background-color: var(--danger-hv);
+}

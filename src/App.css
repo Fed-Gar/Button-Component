@@ -1,0 +1,34 @@
+.appContainer {
+  width: 90%;
+  max-width: 1280px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  padding: 1em;
+  margin: auto;
+}
+
+.appContainer h1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.btnsGroup {
+  min-width: 332px;
+  max-width: 900px;
+  height: 60px;
+
+  display: flex;
+}
+
+.footer {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: rgb(169, 169, 169);
+}
