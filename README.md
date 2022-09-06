@@ -30,8 +30,8 @@
 
 ## Overview
 
-<span><img src="./public/buttondevchan.jpg" alt="buttons" width="420px" height="250px" /></span>
-<span><img src="./public/devchan.jpg" alt="buttons" width="280px" height="150px" /></span>
+<span><img src="./public/buttondevchan.jpg" alt="buttons" width="400px" height="250px" /></span>
+<span><img src="./public/devchan.jpg" alt="buttons" width="400px" height="250px" /></span>
 
 ### Built With
 
