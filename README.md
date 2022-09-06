@@ -30,30 +30,33 @@
 
 ## Overview
 
-<span><img src="./public/buttondevchan.jpg" alt="buttons" width="280px" height="150px" /></span>
+<span><img src="./public/buttondevchan.jpg" alt="buttons" width="420px" height="250px" /></span>
 <span><img src="./public/devchan.jpg" alt="buttons" width="280px" height="150px" /></span>
 
 ### Built With
-
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [React](https://reactjs.org/)
 
 ## Features
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) was to build an application to complete the given user stories:
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) was to build an application to complete the given user stories.
+- User story: I can see different button types: default, outline and text
+- User story: I can choose to disable box-shadow
+- User story: I can choose to disable the button
+- User story: I can choose to have an icon on the left or right (Use Google Icon and at least 5 variants)
+- User story: I can have different button sizes
+- User story: I can have different colors
+- User story: When I hover or focus, I can see visual indicators
+- User story: I can still access all button attributes
 
 ## How To Use
-
-<!-- This is an example, please update according to your application -->
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Fed-Gar/your-project-name
+$ git clone https://github.com/Fed-Gar/Button-Component
 
 # Install dependencies
 $ npm install
@@ -65,4 +68,4 @@ $ npm start
 ## Contact
 
 - GitHub [@Fed-Gar](https://{github.com/Fed-Gar})
-- Gmail [gacia.fed3rico@gmail.com](gacia.fed3rico@gmail.com)
+- Gmail [garcia.fed3rico@gmail.com](garcia.fed3rico@gmail.com)
